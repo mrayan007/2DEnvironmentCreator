@@ -54,4 +54,19 @@ public class EnvironmentController : ControllerBase
 
         return Ok(new { message = "Nieuwe 2D-wereld succesvol aangemaakt", worldId = newWorld.Id });
     }
+
+    [HttpGet("getmine")]
+    public async Task<IActionResult> GetMyEnvironments()
+    {
+        var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+        if (userId == null)
+            return Unauthorized();
+
+        var userWorlds = await _context.Environments
+            .Where(w => w.UserId == userId)
+            .Select(w => new { w.Name })
+            .ToListAsync();
+
+        return Ok(userWorlds);
+    }
 }
