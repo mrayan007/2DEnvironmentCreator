@@ -13,5 +13,16 @@ namespace EnvCreatorApi.Data
 
         public DbSet<Environment2D> Environments { get; set; }
         public DbSet<Object2D> Objects { get; set; }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            base.OnModelCreating(modelBuilder);
+
+            modelBuilder.Entity<Environment2D>()
+                .HasMany(e => e.Objects)
+                .WithOne(o => o.Environment)
+                .HasForeignKey(o => o.EnvironmentId)
+                .OnDelete(DeleteBehavior.Cascade);
+        }
     }
 }

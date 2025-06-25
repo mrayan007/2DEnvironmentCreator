@@ -104,7 +104,7 @@ public class EnvironmentController : ControllerBase
         });
     }
 
-    [HttpPost("addobject")]
+    [HttpPost("object")]
     public async Task<IActionResult> AddObjectToEnvironment([FromBody] ObjectDto dto)
     {
         var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
@@ -133,5 +133,25 @@ public class EnvironmentController : ControllerBase
         await _context.SaveChangesAsync();
 
         return Ok(new { message = "Object toegevoegd", objectId = newObject.Id });
+    }
+
+    [HttpDelete("{id}")]
+    public async Task<IActionResult> DeleteEnvironment(int id)
+    {
+        var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+        if (userId == null)
+            return Unauthorized();
+
+        var environment = await _context.Environments
+            .Include(e => e.Objects)
+            .FirstOrDefaultAsync(e => e.Id == id && e.UserId == userId);
+
+        if (environment == null)
+            return NotFound("Deze 2D-wereld bestaat niet of is niet van jou.");
+
+        _context.Environments.Remove(environment);
+        await _context.SaveChangesAsync();
+
+        return Ok(new { message = "2D-wereld succesvol verwijderd." });
     }
 }
