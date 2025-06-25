@@ -59,4 +59,19 @@ app.UseAuthentication();
 app.UseAuthorization();
 app.MapControllers();
 
+using (var scope = app.Services.CreateScope())
+{
+    var dbContext = scope.ServiceProvider.GetRequiredService<EnvCreatorContext>();
+    Console.WriteLine("Applying database migrations...");
+    try
+    {
+        dbContext.Database.Migrate();
+        Console.WriteLine("Database migrations applied successfully.");
+    }
+    catch (Exception ex)
+    {
+        Console.WriteLine($"Error applying database migrations: {ex.Message}");
+    }
+}
+
 app.Run();

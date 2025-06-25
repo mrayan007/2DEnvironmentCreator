@@ -7,6 +7,6 @@
         public double MaxHeight {  get; set; }
         public double MaxWidth { get; set; }
         public string UserId { get; set; }
+        public List<Object2D> Objects { get; set; }
     }
-
 }

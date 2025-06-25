@@ -3,8 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\Gebruiker\\Documents\\School\\1.3\\2DEnvironmentCreator\\EnvCreatorApi\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{196DB02F-7F20-4857-8262-37E86C70C672}|EnvCreatorApi.csproj|c:\\users\\gebruiker\\documents\\school\\1.3\\2denvironmentcreator\\envcreatorapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{196DB02F-7F20-4857-8262-37E86C70C672}|EnvCreatorApi.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{196DB02F-7F20-4857-8262-37E86C70C672}|EnvCreatorApi.csproj|c:\\users\\gebruiker\\documents\\school\\1.3\\2denvironmentcreator\\envcreatorapi\\models\\object2d.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{196DB02F-7F20-4857-8262-37E86C70C672}|EnvCreatorApi.csproj|solutionrelative:models\\object2d.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{196DB02F-7F20-4857-8262-37E86C70C672}|EnvCreatorApi.csproj|c:\\users\\gebruiker\\documents\\school\\1.3\\2denvironmentcreator\\envcreatorapi\\models\\environment2d.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{196DB02F-7F20-4857-8262-37E86C70C672}|EnvCreatorApi.csproj|solutionrelative:models\\environment2d.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{196DB02F-7F20-4857-8262-37E86C70C672}|EnvCreatorApi.csproj|c:\\users\\gebruiker\\documents\\school\\1.3\\2denvironmentcreator\\envcreatorapi\\controllers\\environmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{196DB02F-7F20-4857-8262-37E86C70C672}|EnvCreatorApi.csproj|solutionrelative:controllers\\environmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{196DB02F-7F20-4857-8262-37E86C70C672}|EnvCreatorApi.csproj|c:\\users\\gebruiker\\documents\\school\\1.3\\2denvironmentcreator\\envcreatorapi\\data\\envcreatorcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{196DB02F-7F20-4857-8262-37E86C70C672}|EnvCreatorApi.csproj|solutionrelative:data\\envcreatorcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{196DB02F-7F20-4857-8262-37E86C70C672}|EnvCreatorApi.csproj|c:\\users\\gebruiker\\documents\\school\\1.3\\2denvironmentcreator\\envcreatorapi\\dtos\\objectdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{196DB02F-7F20-4857-8262-37E86C70C672}|EnvCreatorApi.csproj|solutionrelative:dtos\\objectdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{196DB02F-7F20-4857-8262-37E86C70C672}|EnvCreatorApi.csproj|c:\\users\\gebruiker\\documents\\school\\1.3\\2denvironmentcreator\\envcreatorapi\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -15,24 +35,12 @@
       "RelativeMoniker": "D:0:0:{196DB02F-7F20-4857-8262-37E86C70C672}|EnvCreatorApi.csproj|solutionrelative:dtos\\environmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{196DB02F-7F20-4857-8262-37E86C70C672}|EnvCreatorApi.csproj|c:\\users\\gebruiker\\documents\\school\\1.3\\2denvironmentcreator\\envcreatorapi\\models\\environment2d.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{196DB02F-7F20-4857-8262-37E86C70C672}|EnvCreatorApi.csproj|solutionrelative:models\\environment2d.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{196DB02F-7F20-4857-8262-37E86C70C672}|EnvCreatorApi.csproj|c:\\users\\gebruiker\\documents\\school\\1.3\\2denvironmentcreator\\envcreatorapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{196DB02F-7F20-4857-8262-37E86C70C672}|EnvCreatorApi.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{196DB02F-7F20-4857-8262-37E86C70C672}|EnvCreatorApi.csproj|c:\\users\\gebruiker\\documents\\school\\1.3\\2denvironmentcreator\\envcreatorapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{196DB02F-7F20-4857-8262-37E86C70C672}|EnvCreatorApi.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{196DB02F-7F20-4857-8262-37E86C70C672}|EnvCreatorApi.csproj|c:\\users\\gebruiker\\documents\\school\\1.3\\2denvironmentcreator\\envcreatorapi\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{196DB02F-7F20-4857-8262-37E86C70C672}|EnvCreatorApi.csproj|solutionrelative:dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{196DB02F-7F20-4857-8262-37E86C70C672}|EnvCreatorApi.csproj|c:\\users\\gebruiker\\documents\\school\\1.3\\2denvironmentcreator\\envcreatorapi\\data\\envcreatorcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{196DB02F-7F20-4857-8262-37E86C70C672}|EnvCreatorApi.csproj|solutionrelative:data\\envcreatorcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{196DB02F-7F20-4857-8262-37E86C70C672}|EnvCreatorApi.csproj|c:\\users\\gebruiker\\documents\\school\\1.3\\2denvironmentcreator\\envcreatorapi\\envcreatorapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -57,7 +65,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -65,7 +73,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
+              "Title": "Object2D.cs",
+              "DocumentMoniker": "C:\\Users\\Gebruiker\\Documents\\School\\1.3\\2DEnvironmentCreator\\EnvCreatorApi\\Models\\Object2D.cs",
+              "RelativeDocumentMoniker": "Models\\Object2D.cs",
+              "ToolTip": "C:\\Users\\Gebruiker\\Documents\\School\\1.3\\2DEnvironmentCreator\\EnvCreatorApi\\Models\\Object2D.cs",
+              "RelativeToolTip": "Models\\Object2D.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T21:00:19.76Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Environment2D.cs",
               "DocumentMoniker": "C:\\Users\\Gebruiker\\Documents\\School\\1.3\\2DEnvironmentCreator\\EnvCreatorApi\\Models\\Environment2D.cs",
               "RelativeDocumentMoniker": "Models\\Environment2D.cs",
@@ -73,23 +94,90 @@
               "RelativeToolTip": "Models\\Environment2D.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-25T20:00:14.693Z"
+              "WhenOpened": "2025-06-25T20:00:14.693Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 4,
               "Title": "EnvCreatorContext.cs",
               "DocumentMoniker": "C:\\Users\\Gebruiker\\Documents\\School\\1.3\\2DEnvironmentCreator\\EnvCreatorApi\\Data\\EnvCreatorContext.cs",
               "RelativeDocumentMoniker": "Data\\EnvCreatorContext.cs",
               "ToolTip": "C:\\Users\\Gebruiker\\Documents\\School\\1.3\\2DEnvironmentCreator\\EnvCreatorApi\\Data\\EnvCreatorContext.cs",
               "RelativeToolTip": "Data\\EnvCreatorContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-25T18:37:34.114Z"
+              "WhenOpened": "2025-06-25T18:37:34.114Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EnvironmentDto.cs",
+              "DocumentMoniker": "C:\\Users\\Gebruiker\\Documents\\School\\1.3\\2DEnvironmentCreator\\EnvCreatorApi\\DTOs\\EnvironmentDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\EnvironmentDto.cs",
+              "ToolTip": "C:\\Users\\Gebruiker\\Documents\\School\\1.3\\2DEnvironmentCreator\\EnvCreatorApi\\DTOs\\EnvironmentDto.cs",
+              "RelativeToolTip": "DTOs\\EnvironmentDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T20:04:15.378Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "RegisterDto.cs",
+              "DocumentMoniker": "C:\\Users\\Gebruiker\\Documents\\School\\1.3\\2DEnvironmentCreator\\EnvCreatorApi\\DTOs\\RegisterDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\RegisterDto.cs",
+              "ToolTip": "C:\\Users\\Gebruiker\\Documents\\School\\1.3\\2DEnvironmentCreator\\EnvCreatorApi\\DTOs\\RegisterDto.cs",
+              "RelativeToolTip": "DTOs\\RegisterDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T18:59:52.041Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EnvironmentController.cs",
+              "DocumentMoniker": "C:\\Users\\Gebruiker\\Documents\\School\\1.3\\2DEnvironmentCreator\\EnvCreatorApi\\Controllers\\EnvironmentController.cs",
+              "RelativeDocumentMoniker": "Controllers\\EnvironmentController.cs",
+              "ToolTip": "C:\\Users\\Gebruiker\\Documents\\School\\1.3\\2DEnvironmentCreator\\EnvCreatorApi\\Controllers\\EnvironmentController.cs",
+              "RelativeToolTip": "Controllers\\EnvironmentController.cs",
+              "ViewState": "AgIAAG0AAAAAAAAAAAAcwHEAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T20:05:52.309Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Gebruiker\\Documents\\School\\1.3\\2DEnvironmentCreator\\EnvCreatorApi\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Gebruiker\\Documents\\School\\1.3\\2DEnvironmentCreator\\EnvCreatorApi\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAcwEoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T18:25:58.44Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ObjectDto.cs",
+              "DocumentMoniker": "C:\\Users\\Gebruiker\\Documents\\School\\1.3\\2DEnvironmentCreator\\EnvCreatorApi\\DTOs\\ObjectDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\ObjectDto.cs",
+              "ToolTip": "C:\\Users\\Gebruiker\\Documents\\School\\1.3\\2DEnvironmentCreator\\EnvCreatorApi\\DTOs\\ObjectDto.cs",
+              "RelativeToolTip": "DTOs\\ObjectDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T21:08:10.904Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "LoginDto.cs",
               "DocumentMoniker": "C:\\Users\\Gebruiker\\Documents\\School\\1.3\\2DEnvironmentCreator\\EnvCreatorApi\\DTOs\\LoginDto.cs",
               "RelativeDocumentMoniker": "DTOs\\LoginDto.cs",
@@ -101,56 +189,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Gebruiker\\Documents\\School\\1.3\\2DEnvironmentCreator\\EnvCreatorApi\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\Gebruiker\\Documents\\School\\1.3\\2DEnvironmentCreator\\EnvCreatorApi\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAAADQAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-25T18:25:58.44Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "EnvironmentDto.cs",
-              "DocumentMoniker": "C:\\Users\\Gebruiker\\Documents\\School\\1.3\\2DEnvironmentCreator\\EnvCreatorApi\\DTOs\\EnvironmentDto.cs",
-              "RelativeDocumentMoniker": "DTOs\\EnvironmentDto.cs",
-              "ToolTip": "C:\\Users\\Gebruiker\\Documents\\School\\1.3\\2DEnvironmentCreator\\EnvCreatorApi\\DTOs\\EnvironmentDto.cs",
-              "RelativeToolTip": "DTOs\\EnvironmentDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-25T20:04:15.378Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "EnvironmentController.cs",
-              "DocumentMoniker": "C:\\Users\\Gebruiker\\Documents\\School\\1.3\\2DEnvironmentCreator\\EnvCreatorApi\\Controllers\\EnvironmentController.cs",
-              "RelativeDocumentMoniker": "Controllers\\EnvironmentController.cs",
-              "ToolTip": "C:\\Users\\Gebruiker\\Documents\\School\\1.3\\2DEnvironmentCreator\\EnvCreatorApi\\Controllers\\EnvironmentController.cs",
-              "RelativeToolTip": "Controllers\\EnvironmentController.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAAAiwEIAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-25T20:05:52.309Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "RegisterDto.cs",
-              "DocumentMoniker": "C:\\Users\\Gebruiker\\Documents\\School\\1.3\\2DEnvironmentCreator\\EnvCreatorApi\\DTOs\\RegisterDto.cs",
-              "RelativeDocumentMoniker": "DTOs\\RegisterDto.cs",
-              "ToolTip": "C:\\Users\\Gebruiker\\Documents\\School\\1.3\\2DEnvironmentCreator\\EnvCreatorApi\\DTOs\\RegisterDto.cs",
-              "RelativeToolTip": "DTOs\\RegisterDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-25T18:59:52.041Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\Gebruiker\\Documents\\School\\1.3\\2DEnvironmentCreator\\EnvCreatorApi\\Models\\User.cs",
               "RelativeDocumentMoniker": "Models\\User.cs",
@@ -162,7 +201,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\Users\\Gebruiker\\Documents\\School\\1.3\\2DEnvironmentCreator\\EnvCreatorApi\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
@@ -174,7 +213,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "secrets.json",
               "DocumentMoniker": "C:\\Users\\Gebruiker\\AppData\\Roaming\\Microsoft\\UserSecrets\\b94a2af3-6cca-40e2-a947-b73f1b9277bf\\secrets.json",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\AppData\\Roaming\\Microsoft\\UserSecrets\\b94a2af3-6cca-40e2-a947-b73f1b9277bf\\secrets.json",
@@ -186,7 +225,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Gebruiker\\Documents\\School\\1.3\\2DEnvironmentCreator\\EnvCreatorApi\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -198,7 +237,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "EnvCreatorApi.csproj",
               "DocumentMoniker": "C:\\Users\\Gebruiker\\Documents\\School\\1.3\\2DEnvironmentCreator\\EnvCreatorApi\\EnvCreatorApi.csproj",
               "RelativeDocumentMoniker": "EnvCreatorApi.csproj",

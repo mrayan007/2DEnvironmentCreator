@@ -12,5 +12,6 @@ namespace EnvCreatorApi.Data
         }
 
         public DbSet<Environment2D> Environments { get; set; }
+        public DbSet<Object2D> Objects { get; set; }
     }
 }

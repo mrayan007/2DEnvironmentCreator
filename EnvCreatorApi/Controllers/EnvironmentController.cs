@@ -55,7 +55,7 @@ public class EnvironmentController : ControllerBase
         return Ok(new { message = "Nieuwe 2D-wereld succesvol aangemaakt", worldId = newWorld.Id });
     }
 
-    [HttpGet("getmine")]
+    [HttpGet("all")]
     public async Task<IActionResult> GetMyEnvironments()
     {
         var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
@@ -68,5 +68,70 @@ public class EnvironmentController : ControllerBase
             .ToListAsync();
 
         return Ok(userWorlds);
+    }
+
+    [HttpGet("{id}")]
+    public async Task<IActionResult> GetEnvironmentById(int id)
+    {
+        var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+        if (userId == null)
+            return Unauthorized();
+
+        var environment = await _context.Environments
+            .Include(e => e.Objects)
+            .FirstOrDefaultAsync(e => e.Id == id && e.UserId == userId);
+
+        if (environment == null)
+            return NotFound("Deze 2D-wereld bestaat niet of is niet van jou.");
+
+        return Ok(new
+        {
+            environment.Id,
+            environment.Name,
+            environment.MaxHeight,
+            environment.MaxWidth,
+            Objects = environment.Objects.Select(o => new
+            {
+                o.Id,
+                o.PrefabId,
+                o.PositionX,
+                o.PositionY,
+                o.ScaleX,
+                o.ScaleY,
+                o.RotationZ,
+                o.SortingLayer
+            })
+        });
+    }
+
+    [HttpPost("addobject")]
+    public async Task<IActionResult> AddObjectToEnvironment([FromBody] ObjectDto dto)
+    {
+        var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+        if (userId == null)
+            return Unauthorized();
+
+        var environment = await _context.Environments
+            .FirstOrDefaultAsync(e => e.Id == dto.EnvironmentId && e.UserId == userId);
+
+        if (environment == null)
+            return NotFound("Deze wereld bestaat niet of is niet van jou.");
+
+        var newObject = new Object2D
+        {
+            PrefabId = dto.PrefabId,
+            PositionX = dto.PositionX,
+            PositionY = dto.PositionY,
+            ScaleX = dto.ScaleX,
+            ScaleY = dto.ScaleY,
+            RotationZ = dto.RotationZ,
+            SortingLayer = dto.SortingLayer,
+            EnvironmentId = dto.EnvironmentId
+        };
+
+        _context.Objects.Add(newObject);
+        await _context.SaveChangesAsync();
+
+        return Ok(new { message = "Object toegevoegd", objectId = newObject.Id });
     }
 }
