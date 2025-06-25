@@ -10,5 +10,7 @@ namespace EnvCreatorApi.Data
             : base(options)
         {
         }
+
+        public DbSet<Environment2D> Environments { get; set; }
     }
 }

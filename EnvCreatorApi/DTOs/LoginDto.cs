@@ -1,4 +1,4 @@
-﻿namespace EnvCreatorApi.Models
+﻿namespace EnvCreatorApi.DTOs
 {
     public class LoginDto
     {
