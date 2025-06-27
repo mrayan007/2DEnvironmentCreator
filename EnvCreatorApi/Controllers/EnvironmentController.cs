@@ -70,8 +70,8 @@ public class EnvironmentController : ControllerBase
         return Ok(userWorlds);
     }
 
-    [HttpGet("{id}")]
-    public async Task<IActionResult> GetEnvironmentById(int id)
+    [HttpGet("{name}")]
+    public async Task<IActionResult> GetEnvironmentByName(string name)
     {
         var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
         if (userId == null)
@@ -79,7 +79,7 @@ public class EnvironmentController : ControllerBase
 
         var environment = await _context.Environments
             .Include(e => e.Objects)
-            .FirstOrDefaultAsync(e => e.Id == id && e.UserId == userId);
+            .FirstOrDefaultAsync(e => e.Name == name && e.UserId == userId);
 
         if (environment == null)
             return NotFound("Deze 2D-wereld bestaat niet of is niet van jou.");
@@ -92,14 +92,14 @@ public class EnvironmentController : ControllerBase
             environment.MaxWidth,
             Objects = environment.Objects.Select(o => new
             {
-                o.Id,
                 o.PrefabId,
                 o.PositionX,
                 o.PositionY,
                 o.ScaleX,
                 o.ScaleY,
                 o.RotationZ,
-                o.SortingLayer
+                o.SortingLayer,
+                o.EnvironmentId
             })
         });
     }
@@ -135,8 +135,8 @@ public class EnvironmentController : ControllerBase
         return Ok(new { message = "Object toegevoegd", objectId = newObject.Id });
     }
 
-    [HttpDelete("{id}")]
-    public async Task<IActionResult> DeleteEnvironment(int id)
+    [HttpDelete("{name}")]
+    public async Task<IActionResult> DeleteEnvironment(string name)
     {
         var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
         if (userId == null)
@@ -144,7 +144,7 @@ public class EnvironmentController : ControllerBase
 
         var environment = await _context.Environments
             .Include(e => e.Objects)
-            .FirstOrDefaultAsync(e => e.Id == id && e.UserId == userId);
+            .FirstOrDefaultAsync(e => e.Name == name && e.UserId == userId);
 
         if (environment == null)
             return NotFound("Deze 2D-wereld bestaat niet of is niet van jou.");
